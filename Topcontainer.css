@@ -1,0 +1,11 @@
+.topcontainer{
+    background-image: url("../../assets/img.jpg");
+    height:100vh;
+    width:100vw;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    box-shadow: insert 0 0 0 200px rgba(0,0,0,0.5);
+
+
+}

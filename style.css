@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.root {
+   --primary-font-family:font-family: 'Roboto', sans-serif;
+ --secondary-font-family:font-family: 'Quicksand', sans-serif;
+--primary-bg-color:blue;
+
+
+
+}
+body {
+
+margin: 0;
+padding: 0;
+min-width: 100%;
+overflow-x: hidden;
+background-color: whitesmoke;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+.card {
+   background-color: wheat;
+   width: 250px;
+   height: 250px;
+   
+}
+
+.img-design {
+   width: 100%;
+   height: 200px;
+   
+}
+
+#card-body {
+   padding: 20px;
+}
+.product-name {
+   font-weight: 700;
+   font-family: var(--primary-font-family);
+   font-size: 25px;
+}
+
+.product-description {
+   font-weight: 500;
+   font-family: var(--primary-font-family);
+   font-size: 20px;
+}
+.row {
+   display: flex;
+   flex-direction: row;
+}
+
+.rs {
+   display: flex;
+   justify-content: flex-start;
+
+}
+
+.buy {
+   display: flex;
+   justify-content: flex-end;
+}
